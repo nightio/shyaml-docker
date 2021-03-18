@@ -4,5 +4,5 @@ Project: https://pypi.org/project/shyaml/
 
 ### Usage
 ```shell
-cat test.yaml | docker run --rm -i shyaml shyaml keys root
+cat test.yaml | docker run --rm -i nightio/shyaml shyaml keys root
 ```
